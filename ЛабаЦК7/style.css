@@ -1,0 +1,80 @@
+@media screen and (max-width: 570px){
+    .блок{display:none!important;}
+    }
+nav{
+    flex:1;
+    background-color: orangered;
+    padding: 40px;
+    border-radius: 10px;
+    margin-right: 45px;
+}
+
+.card{
+    background-color: orangered;
+    margin: 50px;
+}
+body{
+    background-color: black;
+}
+.nav-item a{
+    font-size: 25px;
+    font-family: Bahnschrift;
+    color: white;
+    padding-left: 15px;
+    
+}
+.container-info {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    padding: 20px; 
+    background-color:black; 
+}
+.card-img{
+    flex: 1;
+    margin-left: 35px;
+    width: 30%;
+}
+.card-title{
+    flex: 1;
+    font-family: Bahnschrift;
+    margin-right: 45px;
+}
+.card-text{
+    flex: 1;
+    font-family: Bahnschrift;
+    margin-right: 45px;
+}
+.dropdown-menu{
+    background-color: orangered;
+}
+h1,h2,h4{
+    font-size: 30px;
+    font-family: Bahnschrift;
+    color: white;
+    padding-left: 15px;
+    text-align: center
+}
+
+ul,li {
+    font-size: 25px;
+    font-family: Bahnschrift;
+    color: white;
+    padding-left: 15px;
+}
+.info{
+    text-align: center ;
+}
+.photo{
+    align-content: center;
+}
+.films{
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between; 
+    padding: 10px;
+}
+.tablef{
+    margin: auto;
+    background-color: orangered;
+}
